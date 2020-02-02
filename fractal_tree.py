@@ -119,5 +119,9 @@ if __name__ == '__main__':
     f = Fractal(700, 700)
 
 
-    f.execute(16, 0.7, 0.65, angle_1 = 60, angle_2 = 40)
+    f.execute(16, 0.2, 0.2, angle_1 = 40, angle_2 = 60)
+
     f.draw()
+
+    plt.savefig(f'RotatedSuperScaled.png')
+
